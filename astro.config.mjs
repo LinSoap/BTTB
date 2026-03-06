@@ -8,8 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://linsoap.github.io',
-  base: '/BTTB/',
+  site: 'https://bttb.blog',
   integrations: [mdx(), sitemap()],
   vite: {
     plugins: [tailwindcss()],

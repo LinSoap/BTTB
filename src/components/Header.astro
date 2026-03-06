@@ -1,9 +1,9 @@
 ---
 // 将导航数据放到组件的 frontmatter (即 --- 之间)
 const navItems = [
-  { name: 'Home', path: '/BTTB/' },
-  { name: 'Blog', path: '/BTTB/blog' },
-  { name: 'About', path: '/BTTB/about' }
+  { name: 'Home', path: '/' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'About', path: '/about' }
 ];
 
 const pathname = Astro.url.pathname;
@@ -11,7 +11,7 @@ const pathname = Astro.url.pathname;
 
 <header class="fixed top-0 left-0 right-0 z-50 bg-[#FDFDFD]/80 backdrop-blur-md border-b border-black/5">
   <nav class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-    <a href="/BTTB/" class="flex items-center gap-2 hover:opacity-70 transition-opacity">
+    <a href="/" class="flex items-center gap-2 hover:opacity-70 transition-opacity">
       <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8">
         <text x="2" y="16" class="fill-current font-bold" style="font-size: 15px; font-family: Inter, sans-serif; letter-spacing: -0.05em;">B</text>
         <text x="22" y="16" class="fill-current font-bold" style="font-size: 15px; font-family: Inter, sans-serif; letter-spacing: -0.05em;">T</text>
