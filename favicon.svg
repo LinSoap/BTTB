@@ -1,0 +1,12 @@
+<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { fill: #000; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #FFF; }
+    }
+  </style>
+  <text x="2" y="16" font-weight="bold" style="font-size: 15px; font-family: Inter, sans-serif; letter-spacing: -0.05em;">B</text>
+  <text x="22" y="16" font-weight="bold" style="font-size: 15px; font-family: Inter, sans-serif; letter-spacing: -0.05em;">T</text>
+  <text x="2" y="36" font-weight="bold" style="font-size: 15px; font-family: Inter, sans-serif; letter-spacing: -0.05em;">T</text>
+  <text x="22" y="36" font-weight="bold" style="font-size: 15px; font-family: Inter, sans-serif; letter-spacing: -0.05em;">B</text>
+</svg>
